@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 80
 
 logging:
   level:
@@ -7,4 +7,4 @@ logging:
     org.springframework.cloud: 'DEBUG'
 
 management:
-  context-path: /admin
+  context-path: /client
